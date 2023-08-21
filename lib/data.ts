@@ -39,23 +39,23 @@ export const experiencesData = [
     title: "WOBY - Fullstack Developer",
     location: "Paris, France",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "At Woby, I worked as an apprentice for a year, contributing to the enhancement of a collaborative tool designed to manage flex office and remote work arrangements. Throughout this experience, we followed an Agile methodology with two-week sprints. In terms of technology, I utilized AWS services such as Lambda, API Gateway, Cognito, DynamoDB, and S3. Additionally, I employed TypeScript to implement the requested functionalities. For instance, I developed reporting features using Node.js libraries to format and transform data into CSV files. This experience also involved various other functionalities that I successfully implemented, further deepening my skills in AWS and TypeScript while working in an Agile team environment.",
     icon: React.createElement(LuGraduationCap),
     date: "2022 - 2023",
   },
   {
     title: "Orange - Backend Developer",
-    location: "Orlando, FL",
+    location: "Arcueil, France",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "At Orange, I worked as an intern for a year, focusing on developing multiple features that were subsequently utilized by internal teams. Throughout this experience, I employed technologies such as Node.js, Express, Google Cloud, Google Analytics, and Data Studio. My role primarily involved crafting functionalities that catered to the needs of various internal teams. This included building solutions using Node.js and Express, harnessing the power of Google Cloud services, implementing Google Analytics for tracking and analysis, and creating interactive reports via Data Studio. My time at Orange not only allowed me to contribute to the company's internal toolset but also enabled me to gain hands-on experience with a range of technologies central to modern web development.",
     icon: React.createElement(CgWorkAlt),
     date: "2021 - 2022",
   },
   {
     title: "Loria - Fullstack Developer",
-    location: "Houston, TX",
+    location: "Nancy, France",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I had an internship at Loria where I worked on enhancing a web application designed to facilitate fun and interactive foreign language teaching for educators. The application utilized technologies such as ReactJS, AI, REST APIs, and Material UI. My responsibilities included implementing new features to make the learning experience more engaging and dynamic. I collaborated with a team to integrate AI and REST APIs, while also utilizing Material UI to improve the user interface. My time at Loria allowed me to further develop my skills in web programming, working with cutting-edge technologies, and collaborating within a development team.",
     icon: React.createElement(FaReact),
     date: "2020",
   },
