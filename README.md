@@ -15,8 +15,8 @@ pnpm dev
 ```
 
 ## Technologies :
-** NextJS 13 **
-** Framer Motion **
-** TypeSCript **
-** TailwindCSS **
-** Email Form **
+**NextJS 13**<br/>
+**Framer Motion**<br/>
+**TypeSCript**<br/>
+**TailwindCSS**<br/>
+**Email Form**<br/>
