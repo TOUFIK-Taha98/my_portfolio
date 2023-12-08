@@ -57,16 +57,15 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl text-justify"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Bonjour, C'est Taha!!</span> Un{" "}
-        <span className="font-bold">développeur Fullstack</span> avec une
-        expérience de <span className="font-bold">trois ans</span>. J'aime
-        construire des{" "}
-        <span className="itTaha_TOUFIK_CValic">sites et des applications</span>.
-        J'ai créé ceci avec <span className="underline">React (Next.js)</span>.
+        <span className="font-mono">
+          Développeur fullstack <b>passionné</b> avec <b>3 ans d'expérience</b>.
+          Je résous efficacement les défis complexes. Créatif et axé sur les
+          résultats, je suis prêt à contribuer à des projets innovants.
+        </span>
       </motion.h1>
 
       <motion.div
