@@ -34,11 +34,11 @@ export default function Contact() {
       <SectionHeading>Contactez-moi</SectionHeading>
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
-        Veuillez me contacter directement à{" "}
+        Veuillez me contacter directement :{" "}
         <a className="underline" href="mailto:bookingtaha98@gmail.com">
           bookingtaha98@gmail.com
         </a>{" "}
-        ou via ce formulaire.
+        ou bien via le formulaire suivant
       </p>
 
       <form
