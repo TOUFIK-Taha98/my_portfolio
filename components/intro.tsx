@@ -63,9 +63,10 @@ export default function Intro() {
       >
         <span className="font-bold">Bonjour, C'est Taha!!</span> Un{" "}
         <span className="font-bold">développeur Fullstack</span> avec une
-        expérience de <span className="font-bold">trois ans </span>. J'aime
-        construire des<span className="italic">sites et des applications</span>.
-        J'ai créé ceci avec <span className="underline">React (Next.js)</span>.
+        expérience de <span className="font-bold">trois ans</span>. J'aime
+        construire des <span className="italic">sites et des applications</span>
+        . J'ai créé ceci avec <span className="underline">React (Next.js)</span>
+        .
       </motion.h1>
 
       <motion.div
@@ -84,7 +85,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
+          Contactez-moi ici{" "}
           <BsArrowRight className="opacity-75 group-hover:translate-x-1 transition" />{" "}
         </Link>
         <a
@@ -92,7 +93,7 @@ export default function Intro() {
           href="/cv.pdf"
           download
         >
-          Download CV{" "}
+          Télécharger le CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />{" "}
         </a>
         <a
