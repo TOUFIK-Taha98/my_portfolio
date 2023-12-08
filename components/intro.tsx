@@ -12,7 +12,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
 export default function Intro() {
-  const { ref } = useSectionInView("Home", 0.5);
+  const { ref } = useSectionInView("Accueil", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
@@ -64,9 +64,9 @@ export default function Intro() {
         <span className="font-bold">Bonjour, C'est Taha!!</span> Un{" "}
         <span className="font-bold">développeur Fullstack</span> avec une
         expérience de <span className="font-bold">trois ans</span>. J'aime
-        construire des <span className="italic">sites et des applications</span>
-        . J'ai créé ceci avec <span className="underline">React (Next.js)</span>
-        .
+        construire des{" "}
+        <span className="itTaha_TOUFIK_CValic">sites et des applications</span>.
+        J'ai créé ceci avec <span className="underline">React (Next.js)</span>.
       </motion.h1>
 
       <motion.div
@@ -90,7 +90,7 @@ export default function Intro() {
         </Link>
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/cv.pdf"
+          href="/Taha_TOUFIK_CV.pdf"
           download
         >
           Télécharger le CV{" "}
