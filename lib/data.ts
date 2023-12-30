@@ -5,6 +5,10 @@ import { LuGraduationCap } from "react-icons/lu";
 
 import ticketBooking from "@/public/ticket-booking.png";
 import mazaimg from "@/public/mazaimg.png";
+import airbnb from "@/public/airbnb.png";
+import travel from "@/public/travel-ui.png";
+import trello from "@/public/trello.png";
+import instagram from "@/public/instagram.png";
 import placesApi from "@/public/places-api.png";
 
 export const links = [
@@ -63,25 +67,79 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Instagram Clone",
+    description: "",
+    tags: [
+      "Next.js 14",
+      "Server Actions",
+      "React",
+      "Prisma",
+      "Stripe",
+      "Tailwind",
+      "shadcnUI",
+      "MySQL",
+    ],
+    imageUrl: instagram,
+    projectLink: "https://www.pixelgram-project.vercel.app",
+  },
+  {
+    title: "Trello Clone",
+    description: "",
+    tags: [
+      "Next.js 14",
+      "Server Actions",
+      "React",
+      "Prisma",
+      "Stripe",
+      "Tailwind",
+      "shadcnUI",
+      "MySQL",
+    ],
+    imageUrl: trello,
+    projectLink: "https://trello-clone-chi-six.vercel.app/",
+  },
+  {
+    title: "Modern UI/UX Travel app",
+    description: "",
+    tags: ["React.js", "Next.js 13", "Tailwind CSS"],
+    imageUrl: travel,
+    projectLink: "https://www.travel-ui-ux-ten.vercel.app",
+  },
+
+  {
+    title: "Airbnb Clone",
+    description: "",
+    tags: [
+      "Next.js 13",
+      "App Router: React",
+      "server components",
+      "Tailwind",
+      "Prisma",
+      "MongoDB",
+      "NextAuth",
+      "Cloudinary CDN",
+      "Vercel deploy",
+    ],
+    imageUrl: airbnb,
+    projectLink: "https://project-clone-nine.vercel.app/",
+  },
+  {
     title: "MazaNutribeauté",
-    description:
-      "J'ai réalisé en freelance la création d'un site e-commerce avec WordPress.",
+    description: "",
     tags: ["Wordpress"],
     imageUrl: mazaimg,
     projectLink: "https://www.mazanutribeaute.fr/",
   },
   {
     title: "API Places",
-    description:
-      "Il s'agit d'un outil qui intègre les fonctionnalités de Google Maps avec le stockage de données. Cette API permet aux utilisateurs de gérer efficacement et créer des données basées sur la localisation.",
+    description: "",
     tags: ["React", "Express", "MongoDB", "GoogleAPI", "JWT", "Mongoose"],
     imageUrl: placesApi,
     projectLink: "https://github.com/TOUFIK-Taha98/API-PLACES",
   },
   {
     title: "Application de réservation de billets.",
-    description:
-      "Application Flutter version 3.10.0. Cette application de réservation de billets couvre Flutter, s'adressant aux débutants comme aux apprenants avancés. Elle commence par des interfaces utilisateur très simples, comme le dessin de texte, pour évoluer vers des mises en page complexes utilisant le widget Stack ainsi qu'une combinaison de widgets Column et Row.",
+    description: "",
     tags: ["Flutter", "Dart"],
     imageUrl: ticketBooking,
     projectLink: "https://github.com/TOUFIK-Taha98/booktickets",
