@@ -67,46 +67,12 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Instagram Clone",
-    description: "",
-    tags: [
-      "Next.js 14",
-      "Server Actions",
-      "React",
-      "Prisma",
-      "Stripe",
-      "Tailwind",
-      "shadcnUI",
-      "MySQL",
-    ],
-    imageUrl: instagram,
-    projectLink:
-      "https://in-s-tagram-clone.vercel.app/login?callbackUrl=https%3A%2F%2Fin-s-tagram-clone.vercel.app%2Fdashboard",
-  },
-  {
-    title: "Trello Clone",
-    description: "",
-    tags: [
-      "Next.js 14",
-      "Server Actions",
-      "React",
-      "Prisma",
-      "Stripe",
-      "Tailwind",
-      "shadcnUI",
-      "MySQL",
-    ],
-    imageUrl: trello,
-    projectLink: "https://trello-clone-j9hd.vercel.app/",
-  },
-  {
     title: "Modern UI/UX Travel app",
     description: "",
     tags: ["React.js", "Next.js 13", "Tailwind CSS"],
     imageUrl: travel,
     projectLink: "https://travel-ui-ux-ten.vercel.app/",
   },
-
   {
     title: "Airbnb Clone",
     description: "",
@@ -144,6 +110,38 @@ export const projectsData = [
     tags: ["Flutter", "Dart"],
     imageUrl: ticketBooking,
     projectLink: "https://github.com/TOUFIK-Taha98/booktickets",
+  },
+  {
+    title: "Instagram Clone",
+    description: "",
+    tags: [
+      "Next.js 14",
+      "Server Actions",
+      "React",
+      "Prisma",
+      "Stripe",
+      "Tailwind",
+      "shadcnUI",
+      "MySQL",
+    ],
+    imageUrl: instagram,
+    projectLink: "https://in-s-tagram-clone.vercel.app",
+  },
+  {
+    title: "Trello Clone",
+    description: "",
+    tags: [
+      "Next.js 14",
+      "Server Actions",
+      "React",
+      "Prisma",
+      "Stripe",
+      "Tailwind",
+      "shadcnUI",
+      "MySQL",
+    ],
+    imageUrl: trello,
+    projectLink: "https://trello-clone-j9hd.vercel.app/",
   },
 ] as const;
 
