@@ -97,7 +97,7 @@ export const projectsData = [
       "MySQL",
     ],
     imageUrl: trello,
-    projectLink: "https://trello-clone-chi-six.vercel.app/",
+    projectLink: "https://trello-clone-j9hd.vercel.app/",
   },
   {
     title: "Modern UI/UX Travel app",
