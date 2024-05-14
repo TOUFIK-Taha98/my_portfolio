@@ -18,7 +18,7 @@ export default function About() {
       id="about"
     >
       <SectionHeading>À propos de moi</SectionHeading>
-      <p className="mb-3">
+      <p className="mb-3 text-justify">
         Après avoir obtenu mon{" "}
         <span className="font-medium">Master en développement web</span>, j'ai
         décidé de poursuivre ma passion pour la programmation.{" "}
@@ -27,14 +27,17 @@ export default function About() {
         </span>{" "}
         l'aspect résolution de problèmes.{" "}
         <span className="underline">J'aime</span> la sensation de finalement
-        trouver une solution à un problème. Mes compétences principales incluent{" "}
-        <span className="font-medium">
+        trouver une solution à un problème. Mes compétences principales incluent
+        : <br />
+        <span className="font-extrabold">
           React, TypeScript, Next.js, Node.js, Flutter, MongoDB, AWS, Google
-          Cloud
+          Cloud, Programmation orientée objet, MVC, MySQL, PostgreSQL, Prisma,
+          NestJS
         </span>
         . <br />
         Je suis constamment à la recherche de nouvelles technologies à
-        apprendre.
+        apprendre, et bien évidémment toujours en apprentissage et amélioration
+        de mes compétences.
       </p>
 
       <p>
