@@ -80,7 +80,8 @@ export const projectsData = [
       "MySQL",
     ],
     imageUrl: instagram,
-    projectLink: "https://www.pixelgram-project.vercel.app",
+    projectLink:
+      "https://in-s-tagram-clone.vercel.app/login?callbackUrl=https%3A%2F%2Fin-s-tagram-clone.vercel.app%2Fdashboard",
   },
   {
     title: "Trello Clone",
@@ -103,7 +104,7 @@ export const projectsData = [
     description: "",
     tags: ["React.js", "Next.js 13", "Tailwind CSS"],
     imageUrl: travel,
-    projectLink: "https://www.travel-ui-ux-ten.vercel.app",
+    projectLink: "https://travel-ui-ux-ten.vercel.app/",
   },
 
   {
