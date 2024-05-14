@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="mb-10 px-4 text-center text-gray-500 ">
       <small className="mb-2 block text-sm">
-        &copy; 2023 Taha. Tous droits réservés.
+        &copy; 2024 Taha. Tous droits réservés.
       </small>
       <p className="text-sm">
         <span className="font-semibold">À propos de ce site web :</span>{" "}
