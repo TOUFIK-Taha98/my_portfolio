@@ -10,11 +10,11 @@ import portfolio from "@/public/vecteezy_briefcase-sign-business-bag-icon-portfo
 
 export const links = [
   {
-    name: "Accueil",
+    name: "Home",
     hash: "#home",
   },
   {
-    name: "About Me",
+    name: "About",
     hash: "#about",
   },
   {
