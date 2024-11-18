@@ -7,7 +7,6 @@ import mazaimg from "@/public/mazaimg.png";
 import iksiir from "@/public/iksiir.png";
 import airbnb from "@/public/airbnb.png";
 import portfolio from "@/public/vecteezy_briefcase-sign-business-bag-icon-portfolio-symbol-luggage_22597790.png";
-import instagram from "@/public/instagram.png";
 
 export const links = [
   {
@@ -15,19 +14,19 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "À propos",
+    name: "About Me",
     hash: "#about",
   },
   {
-    name: "Projets",
+    name: "Projects",
     hash: "#projects",
   },
   {
-    name: "Compétences",
+    name: "Skills",
     hash: "#skills",
   },
   {
-    name: "Expériences",
+    name: "Experiences",
     hash: "#experience",
   },
   {
