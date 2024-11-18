@@ -62,9 +62,9 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-mono">
-          Développeur fullstack <b>passionné</b> avec <b>3 ans d'expérience</b>.
-          Je résous efficacement les défis complexes. Créatif et axé sur les
-          résultats, je suis prêt à contribuer à des projets innovants.
+          Passionate fullstack developer. Skilled at efficiently solving complex
+          challenges. Creative and results-driven, I am ready to contribute to
+          innovative projects.
         </span>
       </motion.h1>
 
@@ -84,7 +84,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contactez-moi ici{" "}
+          Contact me here{" "}
           <BsArrowRight className="opacity-75 group-hover:translate-x-1 transition" />{" "}
         </Link>
         <a
@@ -92,7 +92,7 @@ export default function Intro() {
           href="/Taha_TOUFIK_CV.pdf"
           download
         >
-          Télécharger le CV{" "}
+          Get my Resume{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />{" "}
         </a>
         <a

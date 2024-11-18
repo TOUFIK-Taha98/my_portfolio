@@ -17,32 +17,20 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>À propos de moi</SectionHeading>
+      <SectionHeading>About Me</SectionHeading>
       <p className="mb-3 text-justify">
-        Après avoir obtenu mon{" "}
-        <span className="font-medium">Master en développement web</span>, j'ai
-        décidé de poursuivre ma passion pour la programmation.{" "}
-        <span className="italic">
-          Ma partie préférée de la programmation est
-        </span>{" "}
-        l'aspect résolution de problèmes.{" "}
-        <span className="underline">J'aime</span> la sensation de finalement
-        trouver une solution à un problème. Mes compétences principales incluent
-        : <br />
-        <span className="font-extrabold">
-          React, TypeScript, Next.js, Node.js, Flutter, MongoDB, AWS, Google
-          Cloud, Programmation orientée objet, MVC, MySQL, PostgreSQL, Prisma,
-          NestJS
-        </span>
-        . <br />
-        Je suis constamment à la recherche de nouvelles technologies à
-        apprendre, et bien évidémment toujours en apprentissage et amélioration
-        de mes compétences.
-      </p>
-
-      <p>
-        <span className="italic">Quand je ne code pas</span>, j'aime jouer au
-        foot, lire des livres.
+        After earning my Master's degree in web development, I decided to pursue
+        my passion for programming. My favorite part of programming is
+        problem-solving. I enjoy the satisfaction of finally finding a solution
+        to a challenge.
+        <br /> My core skills include:{" "}
+        <b>
+          React, TypeScript, Next.js, Node.js, Flutter, Java, Spring Boot,
+          MongoDB, AWS, Google Cloud, Object-Oriented Programming, MVC, MySQL,
+          PostgreSQL, Prisma, NestJS.
+        </b>
+        <br />I am always eager to learn new technologies, and I’m constantly
+        improving and refining my skills.
       </p>
     </motion.section>
   );
